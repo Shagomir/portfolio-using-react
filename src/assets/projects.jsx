@@ -4,7 +4,7 @@ export const projects = [
         projectImage: "/assets/images/silverScreenr.png",
         imageDescription: "placeholder",
         projectName: "Silver Screenr",
-        projectDescription: "Description of Project 2",
+        projectDescription: "Silver Screenr, A site designed in Node, Express, and SQL that interacts with external APIs to help you create a watch list.",
         link: "https://silver-screenr.onrender.com/"
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         projectImage: "/assets/images/drydog.png",
         imageDescription: "placeholder",
         projectName: "DryDog",
-        projectDescription: "Description of Project 2",
+        projectDescription: "A project written in JS, CSS, and HTML that combines data from various public APIs to help you find a dry place to walk your dog.",
         link: ""
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
         projectImage: "/assets/images/cssCheatsheet.png",
         imageDescription: "placeholder",
         projectName: "CSS Cheatsheet 1",
-        projectDescription: "placeholder description",
+        projectDescription: "An early project in HTML and CSS, with some common CSS information. ",
         link: ""
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
         projectImage: "/assets/images/horiseon.png",
         imageDescription: "placeholder",
         projectName: "Horiseon Refactor",
-        projectDescription: "Description of Project 2",
+        projectDescription: "A placeholder project - this project involved refactoring site code to make it work properly.",
         link: ""
     },
 
@@ -37,7 +37,7 @@ export const projects = [
         projectImage: "/assets/images/passwordGenScreenshot.png",
         imageDescription: "placeholder",
         projectName: "Password Generator",
-        projectDescription: "Description of Project 2",
+        projectDescription: "A password generator written in Node.js",
         link: ""
     },
 ];

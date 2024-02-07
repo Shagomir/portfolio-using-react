@@ -24,8 +24,7 @@ export default function ProjectCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Visit Project</Button>
       </CardActions>
     </Card>
   );
