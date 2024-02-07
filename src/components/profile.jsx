@@ -1,7 +1,8 @@
 export default function Profile() {
     return (
         <>
-            Lorem Ipsum
+            <div id="#profile"></div>
+            
         </>
     )
 }
