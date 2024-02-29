@@ -1,29 +1,23 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
-import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import { Box, Container } from '@mui/system';
-import Footer from './components/footer'
-import Header from './components/header'
-import DisplayProjects from './components/projectList';
-import Profile from './components/profile';
+import "./App.css";
+import Navigation from "./components/Navigation";
+import { Outlet } from "react-router-dom";
+
+{
+  /* The following line can be included in your src/index.js or App.js file */
+}
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Header />
-      <Container maxWidth="false">
-        <Box sx={{ bgcolor: '#cfe8fc', height: 'vh' }} >
-        <Profile />
-        <DisplayProjects />
-        </Box>
-      </Container>
-      <Footer/>
-    </React.Fragment>
+    <>
+      <Navigation />
+      <Outlet />
+    </>
   );
 }
 
-
-export default App
+export default App;
